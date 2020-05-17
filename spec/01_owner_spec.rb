@@ -1,13 +1,11 @@
-require_relative 'spec_helper.rb'
+require_relative "spec_helper.rb"
 
 describe Owner do
-
   before do
     @owner = Owner.new("Victoria")
   end
 
-  context 'Instance methods' do
-
+  context "Instance methods" do
     describe "#name" do
       it "can have a name" do
         expect(@owner.name).to eq("Victoria")
@@ -35,8 +33,7 @@ describe Owner do
     end
   end
 
-  context 'Class methods' do
-
+  context "Class methods" do
     it ".all returns all instances of Owner that have been created" do
       expect(Owner.all).to include(@owner)
     end

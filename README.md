@@ -39,7 +39,7 @@ A `Dog` and a `Cat` are initialized with a name and an **Owner object**
     and the owner who is purchasing it_.
 
 - An owner should have the ability to walk all their dogs or feed all their cats, which
-will change the mood of all of their pets of that type to "happy".
+  will change the mood of all of their pets of that type to "happy".
 
 ![Owner, Dogs and Cats](https://curriculum-content.s3.amazonaws.com/module-1/ruby-oo-relationships/my-pets/Image_140_Relations_OwnerDogCat.png)
 
@@ -51,4 +51,3 @@ programmer, your job is to _fix broken code!_ Broken code is the norm, the
 baseline, the starting point for all of the projects you will build. Embrace it!
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/oo-my-pets'>OO My Pets</a> on Learn.co and start learning to code for free.</p>
-
